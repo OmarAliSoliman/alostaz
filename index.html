@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link href="https://prayertimes.date/css/widget.api.v1.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- top-header -->
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="for-ad">
+            <a href="" class="btn">للاعلان</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="date-time">
+            <span id="date">
+              <i class="far fa-calendar-alt"></i>
+            </span>
+            <span id="time">
+              <i class="far fa-clock"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">محليات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">عرب وعالم</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              محافظات
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">الوادي الجديد</a>
+              <a class="dropdown-item" href="#">المنيا</a>
+              <a class="dropdown-item" href="#">المنوفية</a>
+              <a class="dropdown-item" href="#">مرسى مطروح</a>
+              <a class="dropdown-item" href="#">كفر الشيخ</a>
+              <a class="dropdown-item" href="#">قنا</a>
+              <a class="dropdown-item" href="#">القليوبية</a>
+              <a class="dropdown-item" href="#">القاهرة</a>
+              <a class="dropdown-item" href="#">الفيوم</a>
+              <a class="dropdown-item" href="#">الغربية</a>
+              <a class="dropdown-item" href="#">شمال سينا</a>
+              <a class="dropdown-item" href="#">الشرقية</a>
+              <a class="dropdown-item" href="#">السويس</a>
+              <a class="dropdown-item" href="#">سوهاج</a>
+              <a class="dropdown-item" href="#">دمياط</a>
+              <a class="dropdown-item" href="#">الدقهليه</a>
+              <a class="dropdown-item" href="#">الجيزة</a>
+              <a class="dropdown-item" href="#">جنوب سينا</a>
+              <a class="dropdown-item" href="#">بورسعيد</a>
+              <a class="dropdown-item" href="#">بني سويف</a>
+              <a class="dropdown-item" href="#">البحيرة</a>
+              <a class="dropdown-item" href="#">البحر الاحمر</a>
+              <a class="dropdown-item" href="#">الاقصر</a>
+              <a class="dropdown-item" href="#">اسيوط</a>
+              <a class="dropdown-item" href="#">اسوان</a>
+              <a class="dropdown-item" href="#">الاسماعلية</a>
+              <a class="dropdown-item" href="#">الاسكندرية</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">حوادث وتحقيقات</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              سياسة واقتصاد
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">اسعار واسواق</a>
+              <a class="dropdown-item" href="#">المنيا</a>
+              <a class="dropdown-item" href="#">بورصة وشركات</a>
+              <a class="dropdown-item" href="#">بنوك واستثمار</a>
+              <a class="dropdown-item" href="#">نقل وملاحة</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">رياضة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ثقافة وفنون</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              منوعات
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">سيدتى وطفلك </a>
+              <a class="dropdown-item" href="#">خدمات ومجتمع </a>
+              <a class="dropdown-item" href="#">كاريكاتير ورسوم </a>
+              <a class="dropdown-item" href="#">صحافة و تليفزيون </a>
+              <a class="dropdown-item" href="#">علوم وتكنولوجيا</a>
+              <a class="dropdown-item" href="#">صحة وجمال </a>
+              <a class="dropdown-item" href="#">صور وفيديوهات</a>
+              <a class="dropdown-item" href="#">عقارات وسيارات </a>
+              <a class="dropdown-item" href="#">تريندات وهاشتاجات عربية </a>
+              <a class="dropdown-item" href="#">دعاية وإعلانات </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              المزيد
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">تقارير وحوارات</a>
+              <a class="dropdown-item" href="#">ملفات ومتابعات</a>
+              <a class="dropdown-item" href="#">نواب واحزاب</a>
+              <a class="dropdown-item" href="#">نقابات وجمعيات</a>
+              <a class="dropdown-item" href="#">افراح واحزان</a>
+              <a class="dropdown-item" href="#">مدارس وجامعات</a>
+              <a class="dropdown-item" href="#">دنيا ودين</a>
+              <a class="dropdown-item" href="#">سياحة وطيران</a>
+              <a class="dropdown-item" href="#">فيروس كورونا</a>
+              <a class="dropdown-item" href="#">رسائل وشكاوى</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- social & search -->
+  <div class="social-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-google-plus"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="ابحث هنا" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="sign-in-sign-up">
+            <a class="sign-in" type="button" data-toggle="modal" data-target="#signin">
+              <i class="fas fa-user"></i>
+              <span href="">تسجيل الدخول</span>
+            </a>
+            <a class="sign-up">
+              <i class="fas fa-user-plus"></i>
+              <span href="">انشاء حساب جديد</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="newline">
+    <div class="container">
+      <div class="my-news-slider" dir="ltr">
+        <div class="slider-item">
+          <a href="">
+            مصر وليبيا يتفقان على إعادة الطيران المباشر وتوقيع 3 اتفاقيات فى الكهرباء
+          </a>
+        </div>
+        <div class="slider-item">
+          <a href="">مفتى الجمهورية: إذا منع الاعتكاف فى المساجد سقطت سنة "الاعتكاف"</a>
+        </div>
+        <div class="slider-item">
+          <a href="">
+            مدبولى من طرابلس: سعيد بوجودى فى ليبيا.. وسنوقع مذكرات تفاهم وتعاون
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main">
+    <div class="container-fluid">
+      <div class="manager">
+        <h6>رئيس مجلس الادارة</h6>
+        <h5>الاستاذ عصام</h5>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-2 col-lg-2">
+          <div class="spaces">
+            <a href="">
+              <img src="./assets/images/ramadan2021.webp" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/10198959625171873868.jfif" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/abtal2.jpeg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-8">
+          <div class="content">
+            <div class="slider-news">
+              <div class="section-header">احدث الأخبار</div>
+              <div id="my-courcle" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#my-courcle" data-slide-to="0" class="active"></li>
+                  <li data-target="#my-courcle" data-slide-to="1"></li>
+                  <li data-target="#my-courcle" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="background-image: url('./assets/images/slider-1.jpg');">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>«الدبيبة»: توحيد المؤسسات الليبية بنسبة 80%؜.. ونعمل على خلق حالة من الأمن للمواطن ثم إجراء
+                        الانتخابات
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="background-image: url('./assets/images/slider-3.jpg');">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>مقتل الرئيس التشادي إدريس ديبي متأثرا بإصابته خلال معارك </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="background-image: url('./assets/images/slider-2.jpg');">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>
+                        أهم الأنباء | حبس 23 متهمًا في حادث قطار طوخ.. وزيارة «مدبولي» إلى ليبيا.. و«صلاح والسيتي»
+                        يرفضان «السوبر ليج»
+
+                      </p>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#my-courcle" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#my-courcle" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="spaces">
+              <a href="">
+                <img src="./assets/images/7101668883051653025.png" alt="">
+              </a>
+            </div>
+            <div class="books-article">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="section-header">كتب
+                    <a href="" class="more">المزيد</a>
+                  </div>
+                  <div class="books-slider" dir="ltr">
+                    <div class="slider-item">
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="section-header">مقالات
+                    <a href="" class="more">المزيد</a>
+                  </div>
+                  <div class="books-slider" dir="ltr">
+                    <div class="slider-item">
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                      <div class="card-books">
+                        <div class="card-img" style="background-image: url('./assets/images/books.jpg');"></div>
+                        <div class="card-body">
+                          <a href="" class="card-title">كتاب الاستاذ عصام</a>
+                          <p class="card-text">برنامج الاستاذ ورمضان</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery">
+              <div class="section-header">معرض الصور
+                <a href="" class="more">المزيد</a>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                  <div class="main-gallery">
+                    <a href="">
+                      <img src="./assets/images/galley-1.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                  <div class="side-gallery">
+                    <a href="">
+                      <img src="./assets/images/galley-2.jpg" alt="">
+                    </a>
+                    <a href="">
+                      <img src="./assets/images/galley-3.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="main-gallery">
+                    <a href="">
+                      <img src="./assets/images/galley-3.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="spaces">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a href="">
+                    <img src="./assets/images/1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a href="">
+                    <img src="./assets/images/abtal2.jpeg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="news-classifications">
+              <div class="section-header">الأخبار
+                <a href="" class="more">المزيد</a>
+              </div>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true">جميع الأخبار</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">الأكثر قراءة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">الأكثر تعليقا</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <div class="news-cards">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-3.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-more">
+                      <a href="" class="btn">المزيد</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="news-cards">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-2.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-more">
+                      <a href="" class="btn">المزيد</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="news-cards">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="new-card">
+                          <div class="card-img"><img src="./assets/images/galley-1.jpg" alt=""></div>
+                          <a href="" class="card-text">رئيس الوزراء يصل مطار القاهرة بعد زيارته لليبيا</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-more">
+                      <a href="" class="btn">المزيد</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="praer-time">
+              <div class="section-header">مواقيت الصلاة</div>
+              <div style="margin:auto; border:1px solid #c0c0c0" id="prayer-container">
+                <div class="prayer_time">أوقات الصلاة</div>
+                <div id="prayer_city"></div>
+                <div id="prayer_date"></div>
+                <div id="prayer_clock"></div>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>الامساك</td>
+                      <td id="Imsak"></td>
+                    </tr>
+                    <tr>
+                      <td>الفجر</td>
+                      <td id="Fajr"></td>
+                    </tr>
+                    <tr>
+                      <td>الظهر</td>
+                      <td id="Dhuhr"></td>
+                    </tr>
+                    <tr>
+                      <td>العصر</td>
+                      <td id="Asr"></td>
+                    </tr>
+                    <tr>
+                      <td>المغرب</td>
+                      <td id="Maghrib"></td>
+                    </tr>
+                    <tr>
+                      <td>العشاء</td>
+                      <td id="Isha"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="boll-subscripe">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="boll">
+                    <div class="section-header">استطلاع الرأي</div>
+                    <form action="">
+                      <h5>هل تتوقع موجة ثانيه لفايروس كورونا</h5>
+                      <div class="form-group">
+                        <input type="radio" name="corona" id="option-yes">
+                        <label for="option-yes">نعم</label>
+                      </div>
+                      <div class="form-group">
+                        <input type="radio" name="corona" id="option-no">
+                        <label for="option-no">لا</label>
+                      </div>
+                      <button type="submit" class="btn btn-submit">تصويت</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="subscripe">
+                    <div class="section-header">اشترك</div>
+                    <h5>اشترك في خدمة الاخبار العاجلة</h5>
+                    <form action="">
+                      <input type="email" name="" id="" class="form-control" placeholder="اكتب ايميلك هنا">
+                      <button type="submit" class="btn btn-submit">الاشتراك</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-2 col-lg-2">
+          <div class="spaces">
+            <a href="">
+              <img src="./assets/images/10198959625171873868.jfif" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/17133376819504545784.jfif" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/1.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-3">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="">
+            <p>
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
+              أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="important-links">
+            <h5>أقسام الموقع</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">الصفحة الرئيسية</a></li>
+              <li><a href="#">محليات</a></li>
+              <li><a href="#">عرب وعالم</a></li>
+              <li><a href="#">محافظات</a></li>
+              <li><a href="#">حوادث</a></li>
+              <li><a href="">اقتصاد</a></li>
+              <li><a href="">ثقافة وفنون</a></li>
+              <li><a href="">رياضة</a></li>
+              <li><a href="">منوعات</a></li>
+              <li><a href="">سيدتى وطفلك</a></li>
+              <li><a href="">مجتمع</a></li>
+              <li><a href="">كاريكاتير</a></li>
+              <li><a href="">صحافة وفنون</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="important-links">
+            <h5>روابط</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">شروط الاستخدام</a></li>
+              <li><a href="#">عن الموقع</a></li>
+              <li><a href="#">سياية الخصوصية</a></li>
+              <li><a href="#">خدمة الرسائل</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="about-site">
+            <h5>حمل التطبيق</h5>
+            <a href="">
+              <img src="./assets/images/play.png" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/apple.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="social">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-google-plus"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <div class="copy">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="copy-content">
+              <h5>جميع الحقوق محفوظة&copy;</h5>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="copy-develop">
+              <h5>تم التصميم والتطوير بواسطة <a href="">omar</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+
+  <!-- sign in modal -->
+  <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-group">
+              <label for="username">اسم المستخدم</label>
+              <input type="text" name="" id="" class="form-control" placeholder="اسم المستخدم">
+            </div>
+            <div class="form-group">
+              <label for="username">كلمة المرور</label>
+              <input type="text" name="" id="" class="form-control" placeholder="كلمة المرور">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-block">الدخول</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="https://prayertimes.date/js/widget.api.v1.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
